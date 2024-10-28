@@ -1,0 +1,902 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.navBar{
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  letter-spacing: 3px;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+ 
+  
+}
+.mains:hover{
+  text-decoration: underline overline;
+}
+
+.gallery:hover{
+  text-decoration: underline overline;
+}
+
+.project:hover{
+  text-decoration: underline overline;
+}
+
+.cer:hover{
+  text-decoration: underline overline;
+}
+
+.con:hover{
+  text-decoration: underline overline;
+}
+
+
+.images{
+ margin-left: 95px;
+}
+
+
+.relative{
+  margin-left: 41%;
+}
+
+.h1{
+  position: absolute;
+  top:49% ;
+  left: 6.5%;
+  padding: 10px;
+  color: rgb(139, 146, 146);
+  font-size: 50px ;
+ 
+}
+
+.p1{
+  position: absolute;
+  top: 59%;
+  left: 7.5% ;
+  font-size: 40px ;
+  font-weight: bold;
+}
+
+.di2{
+  position: absolute;
+  top:70%;
+  left:7.5% ;
+}
+
+.a1{
+  position: absolute;
+  top: 70%;
+  left: 13%;
+}
+
+.slider{
+  position: absolute;
+  top: 130%;
+  left:13%;
+}
+
+.place{
+   position: absolute;
+  top: 130% ;
+  left: 27%;
+ 
+}
+
+.first{
+  position:absolute;
+  top:158%;
+  left:13%;
+}
+
+.head{
+  position: absolute;
+  top: 131%;
+  left: 45%;
+  font-size: 40px;
+  color: rgb(171, 175, 175);
+}
+
+.p2{
+  position: absolute;
+  top: 139%;
+  left: 45%;
+}
+
+.li{
+  position: absolute;
+  top: 163%;
+  left: 43%;
+}
+
+
+.style{
+
+  position: absolute;
+  top: 189%;
+  left: 6%;
+  font-size: 50px ;
+  padding: 5px;
+  color: rgb(200, 201, 201);
+}
+.heading{
+  position: absolute;
+  top: 194%;
+  left: 6% ;
+ font-size: 200px ;
+ font-weight: bold;
+ color: rgb(200, 201, 201);
+}
+
+.pairs{
+  position: absolute;
+  top: 208%;
+  left: 15%;
+}
+
+.new{
+  position: absolute;
+  top: 193%;
+  left: 44% ;
+ font-size: 200px ;
+ font-weight: bold;
+ color: rgb(200, 201, 201);
+}
+
+.pair{
+  position: absolute;
+  top: 207%;
+  left: 55%;
+}
+
+.pic{
+  position: absolute;
+  height: 230px;
+  top: 259%;
+  left: 6%;
+  
+}
+
+.h2{
+  position: absolute;
+  top: 265%;
+  color: rgb(255, 255, 255);
+  left: 15% ;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.fix{
+  position: absolute;
+  height: 230px;
+  top: 293%;
+  left: 6%;
+}
+
+.f1{
+  position:absolute;
+  top: 240%;
+  left: 6%;
+  font-size: 50px;
+  color: rgb(200, 201, 201);
+
+}
+
+.hi{
+  position: absolute;
+  top:283%;
+  color: white;
+  left: 15%;
+}
+
+.k1{
+  position: absolute;
+  top: 259%;
+  height: 230;
+  left: 47%;
+}
+
+.t1{
+  position: absolute;
+  height: 230px;
+  top: 293%;
+  left:21% ;
+}
+
+.j1{
+  position: absolute;
+  height: 230px;
+  top: 293%;
+  left: 67%;
+}
+
+.button1{
+  background-color: rgb(29, 27, 27); /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 326%;
+  left: 75%;
+  padding: 14px 40px;
+}
+
+.h-11{
+  position:absolute;
+  top:340%;
+  left: 6%;
+  font-size: 50px;
+  color: rgb(200, 201, 201);
+
+}
+
+.id{
+  position:absolute;
+  top:352%;
+  left: 6%;
+}
+
+input,textarea{
+  background-color: #F3F3F3;
+   width: calc(60% - 1px); 
+  padding: 10px;
+  margin-top: 11px;
+  border: 1px  ;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.button2{
+  background-color: rgb(29, 27, 27); /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 14px 40px;
+}
+
+.f9{
+  position: absolute;
+  top: 352.5%;
+  left:50%;
+}
+
+.div1-1{
+  display: flex;
+  background: #2C2C2C;
+  height: 70%;
+  padding-top: 400px ;
+  margin-top: 2230px;
+}
+
+
+.ft1{
+
+  color:rgb(226, 223, 223);
+    height: 40vh;
+  width: 0vh;
+  position: absolute;
+  top: 420%;
+  left: 22%;
+  padding: 30px;
+  gap: 19px;
+
+} 
+
+.u1{
+  position: absolute;
+
+top: 429vh;
+left: 6%;
+}
+
+.gi{
+  
+  position: absolute;
+  top: 31px;
+  left: 299px;
+ 
+}
+
+.social-media{
+  position: absolute;
+  top: 33px;
+  left: 90vh;
+}
+
+.fo{
+  position: absolute;
+  left: -21px;
+  top: 70px;
+}
+
+.fe{
+  position: absolute;
+  left: -25px;
+}
+
+.fr{
+  position: absolute;
+  left: -25px;
+  top: 192px ;
+}
+
+.tt{
+  position: absolute;
+  left: 0px;
+  top: 90px;
+}
+
+.aa{
+  position: absolute;
+  left: 20px;
+  top: 90px;
+}
+
+.qq{
+  position:absolute;
+  left: 50px;
+  top: 89px;
+}
+
+.gtr{
+  position: absolute;
+  left: 7%;
+  top: 25%;
+  font-size: 50px;
+  color: rgb(226, 223, 223);
+}
+.p22{
+  position: absolute;
+  left: 7%;
+  top: 34% ;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.uit{
+  position: absolute;
+  left: 7%;
+  top: 51%;
+}
+
+.tif{
+  position: absolute;
+  left: 23%;
+  top: 51%;
+}
+
+.mex{
+  position: absolute;
+  left: 39%;
+  top: 51%;
+}
+
+.mtx{
+  position: absolute;
+  left: 55%;
+  top: 51%;
+}
+
+.mfx{
+  position: absolute;
+  left: 71%;
+  top: 51%;
+}
+
+.tiles{
+  position: absolute;
+  top: 90%;
+  left: 7%;
+}
+
+.ops{
+  position: absolute;
+  top: 90%;
+  left: 23%;
+}
+
+.vop{
+  position: absolute;
+  left: 39%;
+  top:90% ;
+}
+
+.fin{
+  position: absolute;
+  top: 90%;
+  left: 55%;
+}
+
+.vip{
+  position: absolute;
+  top: 90%;
+  left: 71%;
+}
+
+.div1-2{
+  display: flex;
+  background: #2C2C2C;
+  height: 60vh;
+  padding-top: 50px ;
+  margin-top: 70%;
+  gap:15%;
+}
+
+.utx{
+  position: absolute;
+  left:7%;
+  top: 176vh;
+}
+
+.f100{
+  color:rgb(226, 223, 223);
+  height: 40vh;
+width: 0vh;
+position: absolute;
+top: 165%;
+left: 24%;
+padding: 30px;
+gap: 19px;
+
+}
+
+.gtf{
+  position: absolute;
+  top: 33px;
+  left: 299px;
+}
+
+
+.social-media-1{
+  position: absolute;
+  top: 33px;
+  left: 90vh;
+}
+
+.ypi{
+  position: absolute;
+  top: 135%;
+  left: 7%;
+
+}
+
+.quite{
+  position: absolute;
+  left: 22%;
+  top: 134% ;
+}
+
+.xmb{
+  position: absolute;
+  left: 27%;
+  top: 134% ;
+}
+
+.p2p{
+  position: absolute;
+  left: 7%;
+  top: 25%;
+  font-size: 50px;
+  color: rgb(226, 223, 223);
+}
+
+.j-1{
+  position: absolute;
+  left: 7%;
+  top: 34% ;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.iot{
+  position: absolute;
+  left: 7%;
+  top: 25%;
+  font-size: 50px;
+  color: rgb(226, 223, 223);
+}
+
+.yve{
+  position: absolute;
+  left: 7%;
+  top: 34% ;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.za{
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  font-weight: bold;
+}
+
+.za-2{
+  position: absolute;
+  top: 55%;
+  left: 7%;
+}
+
+.bti-9{
+  position: absolute;
+  top: 80%;
+  left: 7%;
+  border: 60px;
+  background: #2C2C2C;
+  color: whitesmoke;
+  height: 70px;
+  width: 20vh;
+}
+
+.teen1{
+  position: absolute;
+  top: 20%;
+ left: 45%;
+}
+
+
+.div1-10{
+  display: flex;
+  background: #2C2C2C;
+  height: 60vh;
+  padding-top: 50px ;
+  margin-top: 50%;
+  gap:15%;
+}
+
+.f190{
+  color:rgb(226, 223, 223);
+  height: 40vh;
+width: 0vh;
+position: absolute;
+top: 122%;
+left: 29%;
+padding: 30px;
+gap: 14px;
+}
+
+.unto{
+  position: absolute;
+ margin-top: 50px;
+ left: 7%;
+ 
+}
+
+.gts-111{
+  position: absolute;
+  top: 23px;
+  left: 299px;
+}
+
+.social-media-12{
+  position: absolute;
+  top: 23px;
+  left: 90vh;
+}
+
+.card-container{
+  background-color:#FBFBFB;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  padding: 70px;
+  margin: 20px;
+  margin-top: 20%;
+  margin-left: 95px;
+}
+
+.image-container{
+  width: 100%; /* Adjust the width as needed */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-left: -70px;
+  margin-top: -70px;
+  height: 420px;
+}
+
+.htc{
+position: absolute;
+left: 58%;
+top: 60%;
+font-size: 50px;
+color: rgb(226, 223, 223);
+}
+
+.par-1{
+  position: absolute;
+  left: 58%;
+  top: 80%;
+}
+
+.btn-45{
+  position: absolute;
+  left: 60%;
+  top: 105%;
+  background: whitesmoke;
+  border: 50px;
+  height: 71px ;
+  width: 222px;
+}
+
+.hits{
+  position: absolute;
+  left: 8%;
+  top: 24%;
+  font-size: 50px;
+  color: rgb(226, 223, 223) ;
+}
+
+.birds{
+  position: absolute;
+  left: 8%;
+  top: 31%;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.cards-container{
+  background-color:#FBFBFB;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  padding: 70px;
+  margin: 20px;
+  margin-top: 10%;
+  margin-left: 95px;
+}
+
+.images-container{
+  width: 100%; /* Adjust the width as needed */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-left: -70px;
+  margin-top: -70px;
+  height: 420px;
+}
+
+.htc-1{
+  position: absolute;
+left: 58%;
+top: 148%;
+font-size: 50px;
+color: rgb(226, 223, 223);
+}
+
+.par-2{
+  position: absolute;
+  left: 58%;
+  top: 170%;
+}
+
+.btn-48{
+  position: absolute;
+  left: 60%;
+  top: 195%;
+  background: whitesmoke;
+  border: 50px;
+  height: 71px ;
+  width: 222px;
+}
+
+.cards1-container{
+  background-color:#FBFBFB;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  padding: 70px;
+  margin: 20px;
+  margin-top: 10%;
+  margin-left: 95px;
+}
+
+.images1-container{
+  width: 100%; /* Adjust the width as needed */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-left: -70px;
+  margin-top: -70px;
+  height: 420px;
+}
+
+.htc-2{
+  position: absolute;
+  left: 58%;
+  top: 237%;
+  font-size: 50px;
+  color: rgb(226, 223, 223);
+}
+
+.par-3{
+  position: absolute;
+  left: 58%;
+  top: 258%;
+}
+
+.btn-50{
+  position: absolute;
+  left: 60%;
+  top: 283%;
+  background: whitesmoke;
+  border: 50px;
+  height: 71px ;
+  width: 222px;
+}
+
+.div1-85{
+  display: flex;
+  background: #2C2C2C;
+  height: 400px;
+  padding-top: 40px ;
+  margin-top: 350px;
+}
+
+.ui-2{
+  position: absolute;
+  top: 360%;
+  left: 7%;
+
+}
+
+.ft1-1{
+  position: absolute;
+  top: 355%;
+  left: 28%;
+  color: whitesmoke;
+ 
+}
+
+.gi-42{
+  position: absolute;
+  top: 5px;
+  left: 299px;
+}
+
+.social-media-99{
+  position: absolute;
+  top: 5px;
+  left: 90vh;
+}
+
+.you{
+  position: absolute;
+  top: 315%;
+  left: 25%;
+}
+
+.for{
+  position: absolute;
+  top: 315%;
+  left: 20%;
+}
+
+.that{
+  position: absolute;
+  top: 315%;
+  left: 7%;
+  width: 90px;
+  height: 50px;
+}
+
+ .iti-1{
+  display: flex;
+  background-color: #fafafa;
+  border: 1px solid #1a1010;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 190px;
+  height: 500px;
+  width: 500px;
+  margin-left: 35%;
+} 
+
+.jj-11{
+ margin-top: 50px;
+ margin-left: 147px ;
+}
+
+.f90{
+  font-size: 30px;
+  font-weight:600;
+  margin-left: 12px;
+}
+
+.p2p-1{
+ margin-left: -12px;
+}
+
+.bbn-76{
+  margin-left: 20px;
+  display: inline-block;
+    padding: 10px 20px;
+    background-color: #080c10;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.hhr{
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  font-size: 50px;
+  color: rgb(226, 223, 223);
+}
+
+.tttt1{
+  position: absolute;
+  top: 33%;
+  left: 8%;
+  font-size: 50px;
+  font-weight: bold;
+}
+.txs{
+  position: absolute;
+  left:8%;
+  top: 49%;
+}
+
+.class{
+  position: absolute;
+  left:8%;
+  top: 115%;
+}
+
+.class-22{
+  position: absolute;
+  left:40%;
+  top: 115%;
+  width: 49%;
+}
+
+.class-33{
+  position:absolute;
+  top:183% ;
+  left:8% ;
+}
+
+.div1-87{
+  display: flex;
+  background: #2C2C2C;
+  height: 400px;
+  padding-top: 40px ;
+  margin-top: 126%;
+}
+
+.ft1-13{
+  position: absolute;
+  top: 285vh;
+  left: 30%;
+  color: whitesmoke;
+}
+
+.mx{
+ position: absolute;
+ top: 290%;
+ left: 7%;
+
+}
+
+.gi-41{
+  position: absolute;
+  top: 5px;
+  left: 299px;
+}
+
+.social-media-91{
+  position: absolute;
+  top: 5px;
+  left: 90vh;
+}
